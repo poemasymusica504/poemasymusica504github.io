@@ -90,7 +90,9 @@ hr {
     font-family: 'Indie Flower';
     font-size: 22px;
 }
-
+@media(max-width:400px) {.showcase{
+    font-size: 30%;
+}}
 .btn {
     cursor: pointer;
     display: inline-block;
@@ -458,9 +460,11 @@ hr {
    .news-cards {
     grid-template-columns: 1fr;
    }
-
-   .showcase {
-        font-size: 70%;
+   .showcase{
+    padding: 20px;
+   }
+   .showcase p{
+        font-size: 80%;
     }
 
     .showcase h1 {
