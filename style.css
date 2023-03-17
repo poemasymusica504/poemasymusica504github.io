@@ -148,7 +148,8 @@ hr {
     font-family: 'Lobster';
 
 }
-@media (max-width:750px) {.poema h3{padding: 20px 80px 0 80px;}}
+@media (max-width: 750px) {.poema h3{padding: 20px 80px 0 80px}}
+@media (max-width: 500px) {.poema h3 {padding:5px 20px 0 20px}}
 /* NEWS CARDS*/
 .news-cards  {
     display: grid;
@@ -480,7 +481,10 @@ hr {
    .cards-banner-one .content,
    .cards-banner-two .content {
     width: 100%;
-    padding: 60px 20px;
+    padding: 60px 5px;
+   }
+   .cards-banner-one p{
+    padding: 5px 10px ;
    }
 
    .footer-links .footer-container{
