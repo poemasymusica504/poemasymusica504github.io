@@ -229,42 +229,35 @@ hr {
     width: auto;
     text-align: center;
 }
+.info {
+    width: auto;
+    height: auto;
+    margin: 25px;
+}
+
+.info p,
 .info h2 {
     text-align: center;
-    text-decoration: #000000 solid;
-    text-transform: initial;
-    margin-bottom: 5px;
-    padding: 20px;
-    font-size: 300%;
-    
+    padding: 12px 50px;
+    font-size: 120%;
 }
-.info p {
-    text-align: start;
-    margin-bottom: 5px;
-    padding: 20px;
+.info h2 {
+    font-size: 200%;
 }
-.history h2 {
+.mejora {
+    width: auto;
+    height: auto;
+    margin: 25px;
+}
+.mejora p, .mejora h2 {
     text-align: center;
-    font-size: 300%;
-    padding: 20px;
-    margin-bottom: 5px;
-}
-.history p {
-    text-align: start;
-    margin-bottom: 5px;
-    padding: 20px;
+    padding: 12px 50px;
+    font-size: 120%;
 }
 .mejora h2 {
-    text-align: center;
-    font-size: 300%;
-    padding: 20px;
-    margin-bottom: 5px;
+    font-size: 200%;
 }
-.mejora p {
-    text-align: start;
-    margin-bottom: 5px;
-    padding: 20px;
-}
+
 /* NEWS CARDS*/
 .news-cards {
     display: grid;
@@ -454,6 +447,12 @@ hr {
     .cards-banner-two .content {
         width: 80%;
     }
+    .info {
+        width: 80%;
+    }
+    .mejora {
+        width: 80%;
+    }
 
     .footer-links .footer-container {
         grid-template-columns: 1fr 1fr;
@@ -489,7 +488,20 @@ hr {
    .cards-banner-one p{
     padding: 5px 10px ;
    }
-
+   .info {
+    width: 100%;
+    padding: 60px 5px;
+   }
+   .info p{
+    padding: 5px 10px;
+   }
+   .mejora {
+    width: 100%;
+    padding: 60px 5px;
+   }
+   .mejora p{
+    padding: 5px 10px;
+   }
    .footer-links .footer-container{
     grid-template-columns: 1fr;
    }
@@ -530,7 +542,15 @@ hr {
      width: 100%;
      padding: 60px 20px;
     }
- 
+
+    .info {
+        width: 100%;
+        padding: 60px 20px;
+    }
+    .mejora {
+        width: 100%;
+        padding: 60px 20px;
+    }
     .footer-links .footer-container{
      grid-template-columns: 1fr;
     }
