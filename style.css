@@ -232,6 +232,7 @@ hr {
 .info {
     width: auto;
     height: auto;
+    background: url(./img/mas_info\ banner.png) no-repeat center center/cover;
     margin: 25px;
 }
 
@@ -247,6 +248,7 @@ hr {
 .mejora {
     width: auto;
     height: auto;
+    background: url(./img/mas_info\ banner.png) no-repeat center center/cover;
     margin: 25px;
 }
 .mejora p, .mejora h2 {
