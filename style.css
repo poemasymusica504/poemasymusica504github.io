@@ -90,9 +90,8 @@ hr {
     font-family: 'Indie Flower';
     font-size: 22px;
 }
-@media(max-width:400px) {.showcase{
-    font-size: 30%;
-}}
+@media(max-width:400px) {.showcase{font-size: 30%;}}
+@media (max-width:600px) {.showcase{padding: 10px;} .showcase p, .showcase h2 {font-size: 12px}}
 .btn{
     position: relative;
     background: #2f3640;
@@ -150,7 +149,10 @@ hr {
 }
 @media (max-width: 750px) {.poema h3{padding: 20px 80px 0 80px}}
 @media (max-width: 500px) {.poema h3 {padding:5px 20px 0 20px}.poema p {padding: 4px 1px 2px 50px}}
-@media (max-width: 360px) {.poema p {padding: 4px 1px 2px 40px;}}
+@media (max-width: 800px) {.poema p {padding: 4px 1px 2px 140px;}}
+@media (max-width: 560px) {.poema p {padding: 4px 1px 2px 110px;}}
+@media (min-width: 1300px) {.poema p{padding: 4px 1px 2px 530px;}}
+@media (max-width: 460px) {.poema p {padding: 4px 1px 2px 40px;}}
 /* NEWS CARDS*/
 .news-cards  {
     display: grid;
