@@ -183,6 +183,18 @@ hr {
     font-family: 'Indie Flower';
 }
 
+
+.tarjeta {
+    background: #150000;
+    border: 2px solid #d3c7c7b0;
+    padding: 10px;
+}
+
+.tarjeta:hover {
+    border: 5px solid #fff;
+    cursor: pointer;
+}
+
 .btn {
     cursor: pointer;
     display: inline-block;
